@@ -43,6 +43,6 @@ The `/login` API has a rate limit of 3 requests per 5 minutes, and the rate limi
 Also I setup the throttler services to limit the requests in global.
 
 1.  Register API: POST - `http://localhost:8888/api/auth/register` with body contains: email, password
-2.  Login API: POST - `http://localhost:8080/users/login` with body contains: email, password
+2.  Login API: POST - `http://localhost:8888/api/auth/login` with body contains: email, password
 
 
